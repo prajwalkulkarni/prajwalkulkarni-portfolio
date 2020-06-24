@@ -19,6 +19,251 @@ sitemap:
     {% include head.html %}
 
 
+
+    <style type="text/css">
+    	.section-title {
+  position: relative;
+  padding-bottom: 20px; }
+  .section-title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: #207561;
+    width: 50px; }
+  .section-title.text-center:after {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .section-title.text-center:after {
+    background: #fff; }
+
+.position-relative {
+  position: relative; }
+
+.service {
+  padding: 30px;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transition: .3s all ease-in-out;
+  -o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+  top: 0;
+  position: relative; }
+  .service:hover {
+    -webkit-box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
+    top: -2px; }
+  .service .service-number {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60px;
+    flex: 0 0 60px; }
+    .service .service-number span {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 50%;
+      background: #207561;
+      display: inline-block;
+      color: #fff;
+      text-align: center; }
+  .service .service-about *:last-child {
+    margin-bottom: 0; }
+  .service .service-about h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px; }
+
+    /*======================================
+//--//-->   PORTFOLIO
+======================================*/
+
+.work-box {
+  margin-bottom: 3rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #fff;
+}
+
+.work-box:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.work-img {
+  display: block;
+  overflow: hidden;
+
+}
+
+.work-img img {
+
+  transition: all 1s;
+  
+}
+
+.work-content {
+  padding: 2rem 3% 1rem 4%;
+}
+
+.work-content .w-more {
+  color: #4e4e4e;
+  font-size: .8rem;
+}
+
+.work-content .w-more .w-ctegory {
+  color: #0078ff;
+}
+
+.work-content .w-like {
+  font-size: 2.5rem;
+  color: #0078ff;
+  float: right;
+}
+
+.work-content .w-like a {
+  color: #0078ff;
+}
+
+.work-content .w-like .num-like {
+  font-size: .7rem;
+}
+
+.w-title {
+  font-size: 1.2rem;
+}
+
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.bars {
+	width: 95%;
+	float: left;
+	padding: 0;
+	text-align: left;
+}
+.bars .skills {
+  	margin-top: 36px;
+   list-style: none;
+}
+.bars li {
+   position: relative;
+  	margin-bottom: 60px;
+  	background: #ccc;
+  	height: 42px;
+  	border-radius: 3px;
+}
+.bars li em {
+	font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+	text-transform: uppercase;
+   letter-spacing: 2px;
+	font-weight: normal;
+   position: relative;
+	top: -36px;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #313131;
+   display: inline-block;
+  	height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
+
+.photoshop {
+  	width: 60%;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
+}
+.illustrator {
+  	width: 55%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+.wordpress {
+  	width: 50%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+.css {
+  	width: 90%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+.html5 {
+  	width: 80%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.jquery {
+  	width: 50%;
+  	-moz-animation: jquery 2s ease;
+  	-webkit-animation: jquery 2s ease;
+}
+
+@-moz-keyframes photoshop {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes illustrator {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-moz-keyframes wordpress {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+
+@-webkit-keyframes photoshop {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes illustrator {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-webkit-keyframes wordpress {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+
+    </style>
+
+
 	</head>
 	<body class="is-loading">
 
@@ -102,174 +347,262 @@ sitemap:
 							</section>-->
 
 
-				<!--Intro-->
-				 <section id="portfolio">
-              <div className="row">
-                <div className="twelve columns collapsed">
-                  <h1>Check Out Some of My Works.</h1>
-                  
-                  <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a href="#modal-01" title>
-                          <img alt="" src="images/portfolio/ic_launcher_foreground.png" />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>Splitster</h5>
-                              <p>Android App</p>
-                            </div>
-                          </div>
-                          <div className="link-icon"><i className="icon-plus" /></div>
-                        </a>
-                      </div>
-                    </div> 
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a href="#modal-02" title>
-                          <img alt="" src="images/portfolio/PS.png" />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>Console</h5>
-                              <p>Web/App Development</p>
-                            </div>
-                          </div>
-                          <div className="link-icon"><i className="icon-plus" /></div>
-                        </a>
-                      </div>
-                    </div> 
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a href="#modal-03" title>
-                          <img alt="" src="images/portfolio/judah.jpg" />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>Judah</h5>
-                              <p>Webdesign</p>
-                            </div>
-                          </div>
-                          <div className="link-icon"><i className="icon-plus" /></div>
-                        </a>
-                      </div>
-                    </div> 
-                    <div className="columns portfolio-item">
-                      <div className="item-wrap">
-                        <a href="#modal-04" title>
-                          <img alt="" src="images/portfolio/into-the-light.jpg" />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>Into The Light</h5>
-                              <p>Photography</p>
-                            </div>
-                          </div>
-                          <div className="link-icon"><i className="icon-plus" /></div>
-                        </a>
-                      </div>
-                    </div> 
-                    
-                   
-                    
-                   
-                  </div> 
-                </div> 
-                
-                <div id="modal-01" className="popup-modal mfp-hide">
-                  <img className="scale-with-grid" src="images/portfolio/modals/ic_launcher_foreground copy.png" alt="" />
-                  <div className="description-box">
-                    <h4>Splitster</h4>
-                    <p>Bill split application,built for Android,written natively.</p>
-                    <span className="categories"><i className="fa fa-tag" />Finance, App</span>
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt.
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+					   <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
+						<li><span class="bar-expand css"></span><em>CSS</em></li>
+						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
+                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+
+	<div class="site-section" id="services-section">
+      <div class="">
+        <div class="">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center mb-5">Skills</h2>
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-style"><i class="fa fa-android" aria-hidden="true"></i></span></div>
+              <div class="service-about">
+                <h3>Android developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-business_center"><i class="fa fa-code" aria-hidden="true"></i></span></div>
+              <div class="service-about">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-desktop_windows"><i class="fa fa-pencil" aria-hidden="true"></i></span></div>
+              <div class="service-about">
+                <h3>Writer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-layers"></span></div>
+              <div class="service-about">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsum error eligendi molestiae eaque quas, ducimus sequi excepturi?</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--/ Section Portfolio Star /-->
+  <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h2 class="title-a">
+            	<br/>
+            	<br/>
+
+              Check out some of my work
+            </h2>
+            <p class="subtitle-a">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="images/pic02.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="images/pic02.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Splitster</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
                   </div>
-                  <div className="link-box">
-                    <a href="https://play.google.com/store/apps/details?id=com.app.splitster&hl=en_US">Details</a>
-                    <a className="popup-modal-dismiss">Close</a>
-                  </div>
-                </div>
-                <div id="modal-02" className="popup-modal mfp-hide">
-                  <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
-                  <div className="description-box">
-                    <h4>PhaeShift</h4>
-                    <p>Application for university's annual tech symposium,built on React Native. </p>
-                    <span className="categories"><i className="fa fa-tag" />Tech, Web Development</span>
-                  </div>
-                  <div className="link-box">
-                    <a href="http://www.behance.net">Details</a>
-                    <a className="popup-modal-dismiss">Close</a>
-                  </div>
-                </div>
-                <div id="modal-03" className="popup-modal mfp-hide">
-                  <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-                  <div className="description-box">
-                    <h4>Judah</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                    <span className="categories"><i className="fa fa-tag" />Branding</span>
-                  </div>
-                  <div className="link-box">
-                    <a href="http://www.behance.net">Details</a>
-                    <a className="popup-modal-dismiss">Close</a>
-                  </div>
-                </div>
-                <div id="modal-04" className="popup-modal mfp-hide">
-                  <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-                  <div className="description-box">
-                    <h4>Into the Light</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                    <span className="categories"><i className="fa fa-tag" />Photography</span>
-                  </div>
-                  <div className="link-box">
-                    <a href="http://www.behance.net">Details</a>
-                    <a className="popup-modal-dismiss">Close</a>
-                  </div>
-                </div>
-                <div id="modal-05" className="popup-modal mfp-hide">
-                  <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-                  <div className="description-box">
-                    <h4>Farmer Boy</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                    <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
-                  </div>
-                  <div className="link-box">
-                    <a href="http://www.behance.net">Details</a>
-                    <a className="popup-modal-dismiss">Close</a>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
                   </div>
                 </div>
-                <div id="modal-06" className="popup-modal mfp-hide">
-                  <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-                  <div className="description-box">
-                    <h4>Girl</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                    <span className="categories"><i className="fa fa-tag" />Photography</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="images/pic02.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="images/pic02.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Phase Shift</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
                   </div>
-                  <div className="link-box">
-                    <a href="http://www.behance.net">Details</a>
-                    <a className="popup-modal-dismiss">Close</a>
-                  </div>
-                </div>
-                <div id="modal-07" className="popup-modal mfp-hide">
-                  <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-                  <div className="description-box">
-                    <h4>Origami</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                    <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-                  </div>
-                  <div className="link-box">
-                    <a href="http://www.behance.net">Details</a>
-                    <a className="popup-modal-dismiss">Close</a>
-                  </div>
-                </div>
-                <div id="modal-08" className="popup-modal mfp-hide">
-                  <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-                  <div className="description-box">
-                    <h4>Retrocam</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                    <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-                  </div>
-                  <div className="link-box">
-                    <a href="http://www.behance.net">Details</a>
-                    <a className="popup-modal-dismiss">Close</a>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
                   </div>
                 </div>
-              </div> 
-            </section>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="images/pic02.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Mavrito Lana Dere</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Bindo Laro Cado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-5.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Lena Mado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="img/work-6.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Big Bang</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+				
 
 						<!-- Footer -->
 							<footer>
