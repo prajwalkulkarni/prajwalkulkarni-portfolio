@@ -3,7 +3,7 @@ layout: post
 title: "Web automation in python"
 date:   2020-07-01
 excerpt: "This article covers,how to automate tasks on web using python and selenium"
-image: "/images/pic05.jpg"
+image: "/images/webautomation.jpg"
 categories: coding
 ---
 
