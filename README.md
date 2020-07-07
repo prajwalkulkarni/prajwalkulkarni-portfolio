@@ -1,6 +1,5 @@
 # Massively
-Add article in coding section
-Post publication commit not visible
+
 > This is Massively, a text-heavy, article-oriented design built around a huge background
 image.
 
