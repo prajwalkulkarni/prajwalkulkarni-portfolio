@@ -25,7 +25,7 @@ We'll be writing a script to send custom messages to WhatsApp contacts. (or spam
 create a new python file <b>spam.py</b>
 
 
-<script src="http://gist-it.appspot.com/https://github.com/prajwalkulkarni/whatspam/blob/master/spam.py"></script>
+<script src="https://gist-it.appspot.com/https://github.com/prajwalkulkarni/whatspam/blob/master/spam.py"></script>
 
 We can see that, there's a class 'Spam' class with an initializer to assign values such as recipient user name, count(message count) and message body.<br>
 The function 'startSpam' contains a <i><b>try/catch/finally</b></i> block locates the search bar to input user name -> clicks to open the chat(if exists),else an exception is thrown and the finally block is executed.
