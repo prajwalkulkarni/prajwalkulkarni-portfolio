@@ -51,7 +51,7 @@ if(num.length>=1){
 ```
 <br>
 
-3. Should begin with a capital letter
+3.Should begin with a capital letter
 
 ```
 var str = 'a234567B'
