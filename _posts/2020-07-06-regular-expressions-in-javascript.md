@@ -50,6 +50,7 @@ if(num.length>=1){
 }
 ```
 <br>
+
 3. Should begin with a capital letter
 
 ```
@@ -60,7 +61,7 @@ if(str[0]>="A"&&str[0]<="Z"){
 }
 ```
 
-As we can see above, to satisfy the condition we're making use of several <b>if-else</b> statements along with loops as well, which needs to iterate over the string length or whatsoever, and this is only to validate a single field.
+As we can see above, to satisfy the condition we're making use of several <b>if-else</b> statements along with loops, which needs to iterate over the string length or whatsoever, and this is only to validate a single field.
 This is a bad programming practice as it increases code base, space and time complexity.
 So, a good rule of thumb is to make use of regular expressions.
 Using regular expressions binds all the required logic in a single line. It also greatly reduces the need to use iterators or multiple if-else statements.
